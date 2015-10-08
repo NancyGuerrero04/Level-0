@@ -20,7 +20,7 @@ score = score + 1;
 		// 6. Add some more riddles
 String riddle2 = JOptionPane.showInputDialog("I have keys but no locks. I have space but no room. You can enter, but you can't go outside. What am I?");
 if(riddle2.equalsIgnoreCase("a keyboard")){
-	JOptionPane.showInputDialog("Correct.");
+	JOptionPane.showMessageDialog("Correct.");
 score=score + 1;
 	}else
 
