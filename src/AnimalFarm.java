@@ -13,18 +13,18 @@ public class AnimalFarm {
 		 * animal.
 		 */
 		JOptionPane.showMessageDialog(null, "Welcome!");
-		for (int i = 0; i>      5; i++) {
-			
-		
-		String animal = JOptionPane.showInputDialog(null, "Which animal would you like to pet?");
-		}
-		/* 2. Make it so that the user can keep entering new animals. */
-		if (animal.equalsIgnoreCase("cow")) {
-			playNoise(mooFile);
-		} else if (animal.equalsIgnoreCase("duck")) {
-			playNoise(quackFile);
-		} else if (animal.equalsIgnoreCase("dog")) {
-			playNoise(woofFile);
+		for (int i = 0; i < 5; i++) {
+
+			String animal = JOptionPane.showInputDialog(null, "Which animal would you like to pet?");
+
+			/* 2. Make it so that the user can keep entering new animals. */
+			if (animal.equalsIgnoreCase("cow")) {
+				playNoise(mooFile);
+			} else if (animal.equalsIgnoreCase("duck")) {
+				playNoise(quackFile);
+			} else if (animal.equalsIgnoreCase("dog")) {
+				playNoise(woofFile);
+			}
 		}
 	}
 
@@ -40,11 +40,11 @@ public class AnimalFarm {
 		playNoise(woofFile);
 	}
 
-	String quackFile = "/Users/workshop/Google Drive/league-sounds/quack.wav";
-	String mooFile = "/Users/workshop/Google Drive/league-sounds/moo.wav";
-	String woofFile = "/Users/workshop/Google Drive/league-sounds/woof.wav";
-	String meowFile = "/Users/workshop/Google Drive/league-sounds/meow.wav";
-	String llamaFile = "/Users/workshop/Google Drive/league-sounds/llama.wav";
+	String quackFile = "/Users/league/Google Drive/league-sounds/quack.wav";
+	String mooFile = "/Users/league/Google Drive/league-sounds/moo.wav";
+	String woofFile = "/Users/league/Google Drive/league-sounds/woof.wav";
+	String meowFile = "/Users/league/Google Drive/league-sounds/meow.wav";
+	String llamaFile = "/Users/league/Google Drive/league-sounds/llama.wav";
 
 	/* Ignore this stuff */
 
